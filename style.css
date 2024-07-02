@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.cursive {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+#addPostForm {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+}
+
+#addPostForm form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#addPostForm label {
+    font-weight: bold;
+}
+
+#addPostForm input,
+#addPostForm textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#addPostForm button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#addPostForm button:hover {
+    background-color: #555;
+}
+/* Existing styles */
+
+#loginProfile {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#loginProfile h2 {
+    margin-bottom: 1rem;
+}
+
+#loginProfile form {
+    display: flex;
+    flex-direction: column;
+}
+
+#loginProfile label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#loginProfile input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#loginProfile button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#loginProfile button:hover {
+    background-color: #555;
+}

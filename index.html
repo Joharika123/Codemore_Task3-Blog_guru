@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Guru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Blog <span class="cursive">Guru</span></h1>
+    </header>
+    <main>
+        <section id="siteDescription">
+            <p>Welcome to Blog Guru, your go-to platform for insightful articles and inspiring content!</p>
+        </section>
+        
+        <section id="blogPosts">
+            <!-- Blog posts will be dynamically added here -->
+        </section>
+        
+        <section id="addPostForm">
+            <h2>Add a New Blog Post</h2>
+            <form id="postForm">
+                <label for="postTitle">Title:</label><br>
+                <input type="text" id="postTitle" name="postTitle" required><br><br>
+                
+                <label for="postContent">Content:</label><br>
+                <textarea id="postContent" name="postContent" rows="5" required></textarea><br><br>
+                
+                <label for="postImage">Image URL or Upload:</label><br>
+                <input type="file" id="postImage" name="postImage"><br><br>
+                
+                <button type="submit">Add Post</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
